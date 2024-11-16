@@ -57,6 +57,14 @@ dependencies = [
     "typing-extensions>=4.12.2; python_full_version<'3.12'",
 ]
 
+urls.changelog = "https://github.com/whiteprints-tests/test-rtd-linux-py310-test/releases"
+urls.discussions = "https://github.com/whiteprints-tests/test-rtd-linux-py310-test/discussions"
+urls.documentation = "https://github.com/whiteprints-tests/test-rtd-linux-py310-test"
+urls.download = "https://github.com/whiteprints-tests/test-rtd-linux-py310-test/releases"
+urls.homepage = "https://github.com/whiteprints-tests/test-rtd-linux-py310-test"
+urls.integration = "https://github.com/whiteprints-tests/test-rtd-linux-py310-test/actions"
+urls.issues = "https://github.com/whiteprints-tests/test-rtd-linux-py310-test/issues"
+urls.repository = "https://github.com/whiteprints-tests/test-rtd-linux-py310-test"
 scripts.test-rtd-linux-py310-test = "test_rtd_linux_py310_test.cli.entrypoint:test_rtd_linux_py310_test"
 
 [tool.pyproject-fmt]
